@@ -38,7 +38,7 @@ python3 -m venv venv
 ```
 3. activate virtual environment
 ```
-source /venv/bin/activate
+source venv/bin/activate
 ```
 4. install project dependencies from requirements.txt,
 ```

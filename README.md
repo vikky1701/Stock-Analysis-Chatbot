@@ -44,7 +44,11 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-5. run project on your local machine,
+5. Revert to the Older OpenAI Python Library Version
+```
+   pip install openai==0.28.0
+```
+6. run project on your local machine,
 ```
 streamlit run main.py
 ```
